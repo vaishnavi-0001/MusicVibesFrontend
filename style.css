@@ -1,0 +1,128 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin : 0;
+    padding: 0;
+
+}
+
+nav{
+    font-family: 'Playfair Display', serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color:rgb(4, 140, 193);
+    color: beige;
+}
+
+nav ul li{
+    padding: 0 12px;
+ 
+}
+
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    margin :23px auto;
+    width: 80%;
+    border-radius: 12px;
+    padding: 30px;
+    background-image: url("thumb-1920-95001.jpg");
+}
+
+
+.brand img{
+    width: 70px;
+    padding: 0 8px;
+}
+
+
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+
+.bottom{
+    position: sticky;
+    height: 140px;
+    background-color:rgb(4, 140, 193) ;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 16px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#MyProgressBar
+{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songitemconatiner{
+    margin-top: 89px;
+}
+
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: rgb(4, 140, 193);
+   
+    color: white;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songitem img{
+    height: 50px;
+    width: 68px;
+    margin: 0 25px;
+    border-radius: 45px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 7.3vw;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
