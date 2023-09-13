@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music .... Constant always</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="1" class="brand"><img src= "logo.png" alt="Music">Music</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="songlist"> 
+            <h1>Best of NCS- no copyright</h1>
+            <div class="songitemconatiner">
+                <div class="songitem">
+                    <img src="Untitled.jpeg" alt="1">
+                    <span class= "SongName">Night Changes</span>
+                    <span class="songListPlay"><span class="timestamp">5.30<i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="Untitled.jpeg" alt="1">
+                    <span class="SongName">Night Changes</span>
+                    <span class="songListPlay"><span class="timestamp">5.30<i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="Untitled.jpeg" alt="1">
+                    <span class="SongName">Night Changes</span>
+                    <span- class="songListPlay"><span class="timestamp">5.30<i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="Untitled.jpeg" alt="1">
+                    <span class="SongName">Night Changes</span>
+                    <span class="songListPlay"><span class="timestamp">5.30<i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="Untitled.jpeg" alt="1">
+                    <span class="SongName">Night Changes</span>
+                    <span class="songListPlay"><span class="timestamp">5.30<i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="Untitled.jpeg" alt="1">
+                    <span class="SongName">Night Changes</span>
+                    <span class="songListPlay"><span class="timestamp">5.30<i id="6" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="banner"> </div>
+        
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="MyProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i id="1" class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i id="masterPlay" class="far fa-3x fa-play-circle" id="masterPlay"></i>
+
+           
+            <i id="1" class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+            <div class="songinfo">
+                <img src="playing.gif" width="42px" alt="" id="gif"> <span id= "masterSongName">Night_changes</span>
+            </div>
+    </div>
+    <audio id="audioElement">
+        <source src="Night_changes.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src = "node.js"></script>
+    <script src="https://kit.fontawesome.com/ccf4ca0819.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
